@@ -13,7 +13,7 @@ for i in range(1000):
         if threex > 1000:
             threelessthan = False
             killswitch1 = True
-            continue
+            break
         break
     while (fivelessthan):
         fivex = 5 * i
@@ -21,7 +21,7 @@ for i in range(1000):
         if fivex > 1000:
             fivelessthan = False
             killswitch2 = True
-            continue
+            break
         break
 print("The sum of all the multiples of 3 or 5 below 1000 is: ")
 print(sum)
